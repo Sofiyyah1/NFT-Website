@@ -1,6 +1,6 @@
 import Modal from "react-bootstrap/Modal";
 // import Data from "../card/data";
-import Ape from "../../assets/card-img/ape-docs.png";
+import Ape from "../../assets/card-img/ape-0.png";
 import Avatar from "../../assets/images/image-avatar.png";
 
 import "./modal.css";
@@ -41,7 +41,10 @@ function CardModal(props) {
                 <span>a42f4693fede4c5a78364391413a47018975df5e</span>
               </a>
             </div>
-            <a href="#" className="buy-nft">
+            <a
+              href="https://opensea.io/assets/ethereum/0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D/0"
+              className="buy-nft"
+            >
               Buy NFT
             </a>
           </div>

@@ -2,7 +2,7 @@ import Whale from "../../assets/card-img/whale-together.jpg";
 import Nft_land from "../../assets/card-img/nft-land.png";
 import Spy from "../../assets/card-img/spy-signals.png";
 import Fertile from "../../assets/card-img/fertile-guppies.jpg";
-import ApeDoc from "../../assets/card-img/ape-docs.png";
+import ApeDoc from "../../assets/card-img/ape-0.png";
 import Metamorphosis from "../../assets/card-img/metamor.png";
 
 const Data = [
