@@ -20,6 +20,7 @@ const Home = () => {
       </div>
       <section className="collectible">
         <h2>NFT COLLECTION</h2>
+
         <div className="column" onClick={() => setModalShow(true)}>
           {Data.map((props, index) => {
             return <Cards key={index} props={props} />;

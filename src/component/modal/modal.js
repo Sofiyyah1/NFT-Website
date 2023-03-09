@@ -1,5 +1,5 @@
 import Modal from "react-bootstrap/Modal";
-// import Data from "../card/data";
+import Data from "../card/data";
 import Ape from "../../assets/card-img/ape-0.png";
 import Avatar from "../../assets/images/image-avatar.png";
 
