@@ -1,0 +1,84 @@
+.modal-title {
+  color: #1c1b1b;
+}
+.modal-body {
+  background-color: #0d0e12;
+  color: #fcfcfc;
+}
+
+.eth {
+  display: block;
+  font-size: 0.75rem;
+}
+.modal-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.modal-col img {
+  width: 90%;
+  border-radius: 50%;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.description h4 {
+  color: #00fff7;
+}
+.description p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #ffffffc3;
+}
+.avatar {
+  display: grid;
+  grid-template-columns: 45px 1fr;
+
+  height: 50px;
+}
+.avatar p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.7;
+}
+.avatar img {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #ced5d6;
+}
+
+.wallet {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 10px;
+}
+.wallet p {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #00fff7;
+}
+.wallet a {
+  text-decoration: none;
+  color: rgb(215, 207, 207);
+  font-size: 0.85rem;
+}
+.wallet a:hover {
+  text-decoration: underline;
+}
+
+a.buy-nft {
+  text-decoration: none;
+  background-color: #00fff7;
+  color: #0d0e12;
+  padding: 8px;
+  border-radius: 8px;
+  width: 120px;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.buy-nft:hover {
+  background-color: #2ff7f0f2;
+}

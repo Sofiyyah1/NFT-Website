@@ -1,0 +1,14 @@
+.footer {
+  margin-top: 100px;
+  color: #ebe9e9;
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin: 22px auto;
+}
+.copyright {
+  text-align: center;
+  font-size: 14px;
+}
