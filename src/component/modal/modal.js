@@ -1,28 +1,20 @@
+import React from "react";
 import Modal from "react-bootstrap/Modal";
-import Data from "../card/data";
-import Ape from "../../assets/card-img/ape-0.png";
-import Avatar from "../../assets/images/image-avatar.png";
-
 import "./modal.css";
 
-function CardModal(props) {
+import Avatar from "../../assets/images/image-avatar.png";
+
+const CardModal = ({ show, onHide, img, title, price }) => {
   return (
-    <Modal
-      {...props}
-      size="lg"
-      backdrop="static"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered
-      className="modal"
-    >
+    <Modal show={show} onHide={onHide} centered size="lg">
       <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          ApeDocs <span className="eth"> 0.091 ETH</span>
+        <Modal.Title>
+          {title} <span className="eth"> {price}</span>
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <div className="modal-col">
-          <img src={Ape} alt="" />
+          <img src={img} alt="Card modal" />
           <div className="description">
             <h4>Description</h4>
             <p>
@@ -52,6 +44,6 @@ function CardModal(props) {
       </Modal.Body>
     </Modal>
   );
-}
+};
 
 export default CardModal;
