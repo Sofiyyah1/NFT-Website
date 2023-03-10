@@ -29,6 +29,7 @@ const Home = () => {
                 ownerImg={item.ownerImg}
                 ownName={item.ownName}
                 link={item.link}
+                ownerAddress={item.ownerAddress}
               />
             );
           })}

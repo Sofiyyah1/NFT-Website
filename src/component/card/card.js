@@ -4,7 +4,16 @@ import Card from "react-bootstrap/Card";
 import IconEthereum from "../../assets/images/icon-ethereum.svg";
 import "./card.css";
 
-const Cards = ({ title, price, img, ownerImg, ownName, des, link }) => {
+const Cards = ({
+  title,
+  price,
+  img,
+  ownerImg,
+  ownName,
+  des,
+  link,
+  ownerAddress,
+}) => {
   console.log("Cards props:", title, price, img);
   const [modalShow, setModalShow] = React.useState(false);
   return (
@@ -39,6 +48,7 @@ const Cards = ({ title, price, img, ownerImg, ownName, des, link }) => {
         ownName={ownName}
         des={des}
         link={link}
+        ownerAddress={ownerAddress}
       />
     </>
   );

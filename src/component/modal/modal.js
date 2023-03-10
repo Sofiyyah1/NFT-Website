@@ -12,6 +12,7 @@ const CardModal = ({
   ownName,
   des,
   link,
+  ownerAddress,
 }) => {
   return (
     <Modal show={show} onHide={onHide} centered size="lg">
@@ -35,9 +36,7 @@ const CardModal = ({
             </div>
             <div className="owner-address">
               <p> Owner's Address:</p>
-              <a href="https://polygonscan.com/address/0x2953399124f0cbb46d2cbacd8a89cf0599974963">
-                0x2953...4963
-              </a>
+              <a href={ownerAddress}>0x2953...4963</a>
             </div>
             <a href={link} className="buy-nft">
               Buy NFT
