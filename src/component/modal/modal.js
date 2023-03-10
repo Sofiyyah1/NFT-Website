@@ -23,7 +23,9 @@ const CardModal = ({
       </Modal.Header>
       <Modal.Body>
         <div className="modal-col">
-          <img src={img} alt="Card modal" />
+          <div className="modal-image">
+            <img src={img} alt="Card modal" />
+          </div>
           <div className="description">
             <h4>Description</h4>
             <p>{des}</p>
