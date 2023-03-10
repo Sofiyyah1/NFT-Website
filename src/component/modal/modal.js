@@ -2,9 +2,17 @@ import React from "react";
 import Modal from "react-bootstrap/Modal";
 import "./modal.css";
 
-import Avatar from "../../assets/images/image-avatar.png";
-
-const CardModal = ({ show, onHide, img, title, price }) => {
+const CardModal = ({
+  show,
+  onHide,
+  img,
+  title,
+  price,
+  ownerImg,
+  ownName,
+  des,
+  link,
+}) => {
   return (
     <Modal show={show} onHide={onHide} centered size="lg">
       <Modal.Header closeButton>
@@ -17,26 +25,21 @@ const CardModal = ({ show, onHide, img, title, price }) => {
           <img src={img} alt="Card modal" />
           <div className="description">
             <h4>Description</h4>
-            <p>
-              Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-              dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta
-              ac consectetur ac, vestibulum at eros.
-            </p>
+            <p>{des}</p>
 
-            <div className="avatar">
-              <img src={Avatar} alt="" />
-              <p>John Doe</p>
+            <div className="nft-detail">
+              <div className="profile-image">
+                <img src={ownerImg} alt="profile-img" />
+              </div>
+              <p>{ownName}</p>
             </div>
-            <div className="wallet">
-              <p> Wallet:</p>
-              <a href="#">
-                <span>a42f4693fede4c5a78364391413a47018975df5e</span>
+            <div className="owner-address">
+              <p> Owner's Address:</p>
+              <a href="https://polygonscan.com/address/0x2953399124f0cbb46d2cbacd8a89cf0599974963">
+                0x2953...4963
               </a>
             </div>
-            <a
-              href="https://opensea.io/assets/ethereum/0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D/0"
-              className="buy-nft"
-            >
+            <a href={link} className="buy-nft">
               Buy NFT
             </a>
           </div>

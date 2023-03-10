@@ -2,10 +2,9 @@ import React from "react";
 import CardModal from "../modal/modal";
 import Card from "react-bootstrap/Card";
 import IconEthereum from "../../assets/images/icon-ethereum.svg";
-import Clock from "../../assets/images/icon-clock.svg";
 import "./card.css";
 
-const Cards = ({ title, price, img, ownerImg, ownName }) => {
+const Cards = ({ title, price, img, ownerImg, ownName, des, link }) => {
   console.log("Cards props:", title, price, img);
   const [modalShow, setModalShow] = React.useState(false);
   return (
@@ -36,6 +35,10 @@ const Cards = ({ title, price, img, ownerImg, ownName }) => {
         img={img}
         title={title}
         price={price}
+        ownerImg={ownerImg}
+        ownName={ownName}
+        des={des}
+        link={link}
       />
     </>
   );

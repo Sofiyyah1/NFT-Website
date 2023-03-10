@@ -32,38 +32,37 @@
   line-height: 1.5;
   color: #ffffffc3;
 }
-.avatar {
-  display: grid;
-  grid-template-columns: 45px 1fr;
-  height: 50px;
+.nft-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
 }
-.avatar p {
-  font-size: 1.1rem;
-  font-weight: 600;
-  line-height: 1.7;
-}
-.avatar img {
-  width: 30px;
-  height: 30px;
-  border: 1px solid #ced5d6;
+.nft-detail p {
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.8;
+  color: #fff;
+  margin: 0;
 }
 
-.wallet {
-  display: grid;
-  grid-template-columns: 50px 1fr;
-  gap: 10px;
+.owner-address {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
-.wallet p {
-  font-size: 0.95rem;
+.owner-address p {
   font-weight: 600;
   color: #00fff7;
+  margin-bottom: 0;
 }
-.wallet a {
+.owner-address a {
   text-decoration: none;
   color: rgb(215, 207, 207);
-  font-size: 0.85rem;
+  font-size: 0.8rem;
 }
-.wallet a:hover {
+.owner-address a:hover {
   text-decoration: underline;
 }
 
@@ -77,6 +76,7 @@ a.buy-nft {
   text-align: center;
   font-weight: 500;
   letter-spacing: 2px;
+  margin-top: 20px;
 }
 .buy-nft:hover {
   background-color: #2ff7f0f2;

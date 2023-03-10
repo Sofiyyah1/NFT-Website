@@ -25,8 +25,10 @@ const Home = () => {
                 title={item.title}
                 price={item.price}
                 img={item.img}
+                des={item.des}
                 ownerImg={item.ownerImg}
                 ownName={item.ownName}
+                link={item.link}
               />
             );
           })}
