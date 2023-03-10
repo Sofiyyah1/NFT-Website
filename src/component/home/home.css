@@ -60,23 +60,22 @@ video {
   gap: 3rem 1.8rem;
 }
 
-/* .card-body {
-  background-color: #0d0d0d;
-} */
-
-/* @media screen and (max-width: 940px) {
-  .column {
-    gap: 1.5rem;
-    margin: 20px;
+@media screen and (max-width: 940px) {
+  .content {
+    margin-top: 30px;
   }
-  .card-body {
-    font-size: 0.9rem;
-    padding: 1.1rem !important;
+  .content h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 0 10px;
   }
-  .our-client {
-    padding: 60px 8%;
+  .content h5 {
+    color: #49bce8;
+    font-size: 1.2rem;
+    margin: 25px 0;
   }
-  .card-img-top {
-    display: none;
+  .collectible h2 {
+    margin-top: 40px;
+    font-size: 1.5rem;
   }
-} */
+}
