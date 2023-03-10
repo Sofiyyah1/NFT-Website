@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import video from "../../assets/video.webm";
 import { Data } from "../card/data";

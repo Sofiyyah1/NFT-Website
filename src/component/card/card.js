@@ -15,13 +15,16 @@ const Cards = ({ title, price, img }) => {
         <Card.Body>
           <div className="previews">
             <p className="title">{title}</p>
-            <div className="preview">
-              <img src={IconEthereum} alt="" />
-              <p>{price}</p>
-            </div>
-            <div className="preview">
-              <img src={Clock} alt="" />
-              <p>Lorem</p>
+            <div className="preview-comp">
+              {" "}
+              <div className="preview">
+                <img src={IconEthereum} alt="" />
+                <p>{price}</p>
+              </div>
+              <div className="preview">
+                <img src={Clock} alt="" />
+                <p>Lorem</p>
+              </div>
             </div>
           </div>
         </Card.Body>
