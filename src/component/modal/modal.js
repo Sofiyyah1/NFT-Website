@@ -23,13 +23,10 @@ const CardModal = ({
       </Modal.Header>
       <Modal.Body>
         <div className="modal-col">
-          <div className="modal-image">
-            <img src={img} alt="Card modal" />
-          </div>
+          <img src={img} alt="Card modal" />
           <div className="description">
             <h4>Description</h4>
             <p>{des}</p>
-
             <div className="nft-detail">
               <div className="profile-image">
                 <img src={ownerImg} alt="profile-img" />

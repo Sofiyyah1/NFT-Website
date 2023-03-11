@@ -16,17 +16,16 @@
 .modal-col {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  /* gap: 10px; */
 }
 .modal-col img {
   width: 320px;
   /* border-radius: 50%; */
 }
-/* .description {
+.description {
   display: flex;
   flex-direction: column;
   gap: 8px;
-} */
+}
 .description h4 {
   color: #00fff7;
 }
