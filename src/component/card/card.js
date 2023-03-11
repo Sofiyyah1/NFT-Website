@@ -25,9 +25,12 @@ const Cards = ({
             <p className="title">{title}</p>
             <div className="nft-details">
               <div className="nft-detail">
-                <div className="profile-image">
-                  <img src={ownerImg} alt="profile-img" />
-                </div>
+                <img
+                  className="profile-image"
+                  src={ownerImg}
+                  alt="profile-img"
+                />
+
                 <p>{ownName}</p>
               </div>
               <div className="nft-detail">

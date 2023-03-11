@@ -28,9 +28,8 @@ const CardModal = ({
             <h4>Description</h4>
             <p>{des}</p>
             <div className="nft-detail">
-              <div className="profile-image">
-                <img src={ownerImg} alt="profile-img" />
-              </div>
+              <img className="profile-image" src={ownerImg} alt="profile-img" />
+
               <p>{ownName}</p>
             </div>
             <div className="owner-address">

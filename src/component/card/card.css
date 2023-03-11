@@ -31,14 +31,9 @@
 .nft-detail .ethereum {
   width: 14px;
 }
-.profile-image {
-  background-color: #ffffff;
-  border-radius: 50%;
-  padding: 2px;
-}
-
-.profile-image img {
+img.profile-image {
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  border: 1px solid #fff;
 }

@@ -39,7 +39,6 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
-  margin-bottom: 10px;
 }
 .nft-detail p {
   color: #ffffff;
@@ -49,10 +48,18 @@
   margin: 0;
 }
 
+img.profile-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
 .owner-address {
   display: flex;
   align-items: center;
   gap: 8px;
+  margin-top: 10px;
 }
 .owner-address p {
   font-weight: 600;
@@ -85,7 +92,7 @@ a.buy-nft {
 }
 
 @media screen and (max-width: 940px) {
-  .modal-col img {
+  .modal-col > img {
     display: none;
   }
 }

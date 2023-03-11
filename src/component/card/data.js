@@ -11,7 +11,7 @@ import Avatar2 from "../../assets/card-img/avatar2.jpeg";
 import Avatar3 from "../../assets/card-img/avatar3.jpeg";
 import Avatar4 from "../../assets/card-img/avatar4.jpeg";
 import Avatar5 from "../../assets/card-img/avatar5.jpeg";
-import Avatar6 from "../../assets/card-img/avatar6.jpeg";
+import Avatar6 from "../../assets/card-img/avatar2.jpeg";
 import Avatar7 from "../../assets/card-img/avatar7.png";
 import Avatar8 from "../../assets/card-img/avatar8.png";
 
