@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import video from "../../assets/video.webm";
-import { Data } from "../card/data";
+import { Data } from "../data/data";
 import Cards from "../card/card";
 
 import "./home.css";

@@ -14,7 +14,6 @@ const Cards = ({
   link,
   ownerAddress,
 }) => {
-  console.log("Cards props:", title, price, img);
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <>
