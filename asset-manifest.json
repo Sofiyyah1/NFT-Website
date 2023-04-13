@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/nft-cards-website/static/css/main.af5800ac.css",
+    "main.js": "/nft-cards-website/static/js/main.e0f86d42.js",
+    "static/media/video.webm": "/nft-cards-website/static/media/video.4e4e7f9d5eb4df6d6b19.webm",
+    "static/media/avatar8.png": "/nft-cards-website/static/media/avatar8.4aec93e82a6e791dac24.png",
+    "static/media/ape-0.png": "/nft-cards-website/static/media/ape-0.56b082455fd005f23fa3.png",
+    "static/media/cat4.jpeg": "/nft-cards-website/static/media/cat4.b317fedf43ce5163fc8f.jpeg",
+    "static/media/bird5.jpeg": "/nft-cards-website/static/media/bird5.1e4d3618efe09948832d.jpeg",
+    "static/media/cat2.jpeg": "/nft-cards-website/static/media/cat2.2899b74bbc2fa73d940e.jpeg",
+    "static/media/bird1.jpeg": "/nft-cards-website/static/media/bird1.04926ba9cdd8cb3ba32f.jpeg",
+    "static/media/bird3.jpeg": "/nft-cards-website/static/media/bird3.056b2b2275cef73e4a51.jpeg",
+    "static/media/bird2.jpeg": "/nft-cards-website/static/media/bird2.b15c2c1c0434d30936f7.jpeg",
+    "static/media/cat5.jpeg": "/nft-cards-website/static/media/cat5.9ed6c510adb65a7a7c30.jpeg",
+    "static/media/avatar4.jpeg": "/nft-cards-website/static/media/avatar4.da6908f34979284e88b2.jpeg",
+    "static/media/altura-logo.svg": "/nft-cards-website/static/media/altura-logo.45ad2b2eef45e0313e5c84badfbdab26.svg",
+    "index.html": "/nft-cards-website/index.html",
+    "static/media/icon-ethereum.svg": "/nft-cards-website/static/media/icon-ethereum.635fba041ef3169c2664613e09fc59f6.svg",
+    "main.af5800ac.css.map": "/nft-cards-website/static/css/main.af5800ac.css.map",
+    "main.e0f86d42.js.map": "/nft-cards-website/static/js/main.e0f86d42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af5800ac.css",
+    "static/js/main.e0f86d42.js"
+  ]
+}
